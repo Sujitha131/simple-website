@@ -1,0 +1,308 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    margin:20px;   
+}
+header{
+    margin-top: 20px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(cover.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: block; 
+}
+header p{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+    color: aliceblue;
+}
+.navbar{
+    position: fixed;
+    height: 10vh;
+    width: 97.2%;
+    background-color: rgb(236, 214, 185); 
+    display:flex;
+}
+.navbar ul li a:hover{
+    background-color:bisque;
+
+}
+nav .logo{
+    position: absolute;  
+    padding-left: 30px;
+}
+nav .logo img{
+     mix-blend-mode:darken;
+}
+nav .navlinks {
+    padding-left: 60%;
+    padding-top: 25px;
+    font-size: 130%;    
+}
+.navlinks ul li {
+    
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+    text-decoration:none;
+}
+.navlinks ul li a{
+    text-decoration: none;
+}
+.navlinks ul li:hover{
+    background-color: bisque;
+}
+.home{
+    display: flex;
+    float: left;
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(235, 218, 237);
+    padding: 30px;
+    margin-top: 10px;      
+}
+.home .img{
+    width: 50%;
+    height: 70vh;
+    color:#fff;
+    padding: 10px 0px;
+    
+}
+.home .words{
+    margin-left: 20%;
+    margin-top: 15%;
+
+}
+.home .words h2{
+    text-align: center;
+    font-size: 180%;
+    font-family: cursive;
+    margin-right: 20%;
+}
+.home .words h4{
+    font-size: 85%;
+    font-family:cursive;
+    
+}
+.home .words button{
+    margin-left: 30%;
+    height: 30px; 
+}
+.home .words button a{
+    text-decoration: none;
+    color: #000;
+}
+.home .words button:hover{
+    background-color: rgb(79, 78, 78);
+}
+.About{
+    float: left;
+    width: 100%;
+    background-color:rgb(235, 218, 237);
+    padding: 30px 20px ;
+    margin-top: 20px ; 
+    margin-bottom: 20px;   
+    font-family:cursive;
+    font-size:150% ;
+}
+.About nav h1{
+    margin-left: 30px;
+}
+.About .content1{
+    float:left;
+    width:100%;
+    margin-top: 50px;   
+}
+.About .content1 .card{
+    display: inline-block;
+    width:24%;
+    padding: 0px 15px;
+}
+.About .content1 .card .box{
+    background-color: rgb(164, 158, 158);
+    font-size: 30px;
+    color:#fff;
+    padding: 25px 15px;
+    text-align: justify;
+}
+.About .content1 .card .box h1{
+    padding-left: 30px;
+}
+.Menu{
+    float: left;
+    width: 100%;
+    background-color: rgb(235, 218, 237);
+    padding: 50px 20px ;   
+    margin-bottom: 20px; 
+    font-family:cursive;
+    font-size: 150%; 
+}
+.Menu nav h1{
+    margin-left: 30px;
+}
+.Menu .content2{
+    float:left;
+    width:100%;
+    margin-top: 60px;
+     
+}
+.Menu .content2 .card{
+    display: inline-block;
+    width:30%;
+    padding-right: 10px;
+    margin-left: 30px;
+}
+.Menu .content2 .card .box{
+    text-align: center;
+}
+.Gallery{
+    float: left;
+    width: 100%;
+    background-color: rgb(235, 218, 237);
+    padding: 20px 20px ;   
+    margin-bottom: 20px;
+    font-family:cursive;
+    font-size: 150%;   
+}
+.Gallery nav h1{
+    margin-left: 30px;
+}
+.Gallery .content3{
+    float:left;
+    width:100%;
+    margin-top: 10px;   
+}
+.Gallery .content3 .card{
+    display: inline-block;
+    width:30%;
+    padding: 15px 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+}
+.Gallery .content3 .card .box{
+    background-color: rgb(164, 158, 158);
+    padding: 60px 15px;
+    text-align: center;
+}
+.Team{
+    float: left;
+    width: 100%;
+    background-color: rgb(235, 218, 237);
+    padding: 50px 20px ;   
+    margin-bottom: 10px;
+    font-family:cursive;
+    font-size: 150%;   
+}
+.Team nav h1{
+    margin-left: 30px;
+}
+.Team .content4{
+    float:left;
+    width:100%;
+    margin-top: 30px;   
+}
+.Team .content4 .card{
+    display: inline-block;
+    width:30%;
+    padding: 10px 30px;
+    padding-right: 10px;
+    margin-left: 15px;
+}
+.Team .content4 .card .box{
+    font-size: 30px;
+    color:#fff;
+    padding: 10px 15px;
+    text-align: center;
+}
+footer{
+    float: left;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(195, 111, 81, 0.505);
+    margin-bottom: 10px;
+}
+.Contact{
+    float: left;
+    width: 100%;
+    height: 73%;
+    background-color:  rgb(235, 218, 237);
+    display: inline-flex;;
+}
+.Contact .img5 img {
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.Contact .form5{
+    background-color: rgb(164, 158, 158);
+    width:53%;
+    height: 91.5%;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.form5 h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form5 form{
+    text-align: left;
+    margin-left: 30%;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.form5 form input{
+    height: 30px;
+    width: 70%;
+}
+.form5 form button{
+    height: 30px;
+    width: 20%;
+    border-radius: 3px 3px 3px 3px;
+    margin-left: 20%;
+}
+.form5 form button{
+    text-decoration: none;
+    color: black;
+}
+.form5 form button:hover{
+    background-color: blueviolet;
+}
+.section6{
+    float: left;
+    width: 100%; 
+    padding: 20px 20px ;   
+    text-align:center ;  
+}
+.section6 .content6{
+    float:left;
+    width:100%;      
+}
+.section6 .content6 .card{
+    display: inline-block;
+    width:24%;
+    padding: 0px 10px;
+}
+.section6 .content6 .card .box{
+    background-color: rgb(235, 218, 237);
+    color: black;
+    height: 130px;
+    text-align: center;
+    padding-top: 10px;
+}
+.section6 .content6 .card .box h1{
+    font-size: 40px;   
+}
+.section7 .copy{
+    position: relative;
+    bottom: 5px;
+    text-align: center;
+    font-size: 18px;
+}
